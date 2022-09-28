@@ -5,11 +5,11 @@ prodolzhit = "y"
 if oper == "+":
     print(f_num + s_num)
 elif oper == "-":
-    print(f_num + s_num)
+    print(f_num - s_num)
 elif oper == "*":
-    print(f_num + s_num)
+    print(f_num * s_num)
 elif oper == "/":
-    print(f_num + s_num)
+    print(f_num / s_num)
 else:
     print("ошибка")
 prodolzhit = input("Введите 'y', чтобы продолжить, или любую клавишу, чтобы завершить>>")
