@@ -34,7 +34,12 @@ class Calculator:
                 else:
                     raise SyntaxError(f"{current}: Invalid syntax.")
 
+def repl():
+    calc = Calculator()
+    while True:
+        inpt = input(">> ")
+        calc.run(inpt)
 
-calc = Calculator()
-calc.run("2 2 + 4 * print")
+if __name__ == "__main__":
+        repl()
 
