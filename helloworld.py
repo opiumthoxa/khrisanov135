@@ -6,7 +6,7 @@ class Calculator:
             "-": lambda: self.push(self.pop() - self.pop()),
             "*": lambda: self.push(self.pop() * self.pop()),
             "/": lambda: self.push(self.pop() / self.pop()),
-            "print": lambda: self.print()
+            "=": lambda: self.print()
         }
 
     def push(self, sth):
