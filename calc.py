@@ -23,7 +23,6 @@ class Calculator:
         c = 0
         while c < len(tokens):
             current = tokens[c]
-
             if current.isnumeric():
                 self.push(current)
                 c += 1
