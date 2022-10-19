@@ -23,23 +23,24 @@ class Calculator:
         c = 0
         while c < len(tokens):
             current = tokens[c]
-            while c < len(tokens):
-                current = tokens[c]
-                if current.isnumeric():
-                    self.push(current)
-                    c += 1
-                elif current in self.token_map:
-                    self.token_map[current]()
-                    c += 1
-                else:
-                    raise SyntaxError(f"{current}: Invalid syntax.")
+
+            if current.isnumeric():
+                self.push(current)
+                c += 1
+            elif current in self.token_map:
+                self.token_map[current]()
+                c += 1
+            else:
+                raise SyntaxError(f"{current}: Invalid syntax.")
 
 
+# Польская нотация 2 2 + =
 def repl():
-	calc = Calculator()
-	while True:
-		inpt = input(">> ")
-		calc.run(inpt)
+    calc = Calculator()
+    while True:
+        inpt = input(">> ")
+        calc.run(inpt)
+
 
 if __name__ == "__main__":
     repl()
