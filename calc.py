@@ -33,7 +33,7 @@ class Calculator:
                 raise SyntaxError(f"{current}: Invalid syntax.")
 
 
-# Польская нотация 2 2 + =
+# Польская нотация 2 3 + 5 * =
 def repl():
     calc = Calculator()
     while True:
