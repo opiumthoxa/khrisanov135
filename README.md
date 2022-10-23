@@ -14,5 +14,8 @@
 ![image](https://user-images.githubusercontent.com/105438468/195517956-d68945e2-6a21-4f33-a610-98bd4d21bea2.png)
 * Подпроцесс завершения увольнения
 ![image](https://user-images.githubusercontent.com/105438468/195517982-99131eee-b2ea-42d6-a1b3-39d56eeb013b.png)
+* Use case диаграмма
+
+![image](https://user-images.githubusercontent.com/105438468/197378366-a81415a6-a9ec-404d-b453-1f781bcaa99b.png)
 
 
