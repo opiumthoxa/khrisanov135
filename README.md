@@ -17,5 +17,8 @@
 * Use case диаграмма
 
 ![image](https://user-images.githubusercontent.com/105438468/197378366-a81415a6-a9ec-404d-b453-1f781bcaa99b.png)
+* IDEF1X модель.
+![image](https://user-images.githubusercontent.com/105438468/198070127-c01c04e9-c053-4327-9ce6-63930ee36ea9.png)
+
 
 
